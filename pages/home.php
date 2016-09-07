@@ -10,7 +10,7 @@
         setcookie(session_name(),'',time() - 3600);
       }
       session_destroy();
-      header('Location: ../markup/tryout.php',true,301);
+      header('Location: ../pages/home.php',true,301);
       exit();
     } 
     
@@ -22,7 +22,7 @@
 <html>
 	<head>
 		<meta charset="utf 8">
-		<link rel="stylesheet" href="../stylesheets/style.php">
+		<link rel="stylesheet" href="../css/style.php">
 
 		<title> firesale--The College Market </title>
 	</head>
@@ -258,7 +258,7 @@
 	      header('Location: ../markup/'.$_GET['where'].'.php',true,301);
 	      exit;
 	    } else {
-	      header("Location: ../markup/tryout.php",true,301);
+	      header("Location: ../pages/home.php",true,301);
 	      exit;
 	    }
 	    
@@ -288,7 +288,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="../stylesheets/style.php">
+		<link rel="stylesheet" href="../css/style.php">
 		<title>firesale--Welcome!</title>
 	</head>
 	<body>
@@ -414,7 +414,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="../stylesheets/style.php">
+		<link rel="stylesheet" href="../css/style.php">
 		<title>firesale--The College Market</title>
 	</head>
 	<body>
