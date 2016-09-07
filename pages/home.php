@@ -305,7 +305,7 @@
 			<table>
 				<tr>
 					<td rowspan="3" id="welcometext"><p>Welcome to firesale, the only sales website dedicated solely to college students!  College life is already so expensive, why make it even more so?   At firesale, you can buy and sell textbooks, sublet apartments, and more, all for free! Yay?</p>
-						<p> We are currently only available in a few universities, but actually we aren't available anywhere, so suck it.</p>
+						<p> We are currently only available in a few universities, but actually we aren't available anywhere, so... whoops.</p>
 					</td>
 					<td class="block">
 						<div id="signin">
@@ -396,7 +396,7 @@
 				</tr>
 				<tr>
 					<td class="block" id="lastblock">
-						<p>firesale is only avaiable to college students.</p>
+						<p>firesale is only available to college students.</p>
 						<p>Want to donate? Please give us money, we're so poor.</p>
 					</td>
 				</tr>
