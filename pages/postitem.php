@@ -30,7 +30,7 @@
       exit();
     } else {
     
-        require('../php/getcolors.php');
+        require('../phpscripts/getcolors.php');
         
         if (isset($_POST['postit'])) {
         switch($_POST['college']) {
@@ -157,7 +157,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="../stylesheets/style.php">
+		<link rel="stylesheet" href="../css/style.php">
 		<title>firesale--The College Market</title>
 	</head>
 	<body>
@@ -180,7 +180,7 @@
 			</table> 
 		</header>
 		<?php
-		  require('../php/accountbar.php');
+		  require('../phpscripts/accountbar.php');
 		?>
 		<div id="bodywrap" class="wrapper">
 		  <?php if ($valid==false) {

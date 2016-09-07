@@ -39,7 +39,7 @@
       }
         $dbconn->close();
 
-      require('../php/getcolors.php');
+      require('../phpscripts/getcolors.php');
       $numpost = 0;
       $dbconn = new mysqli('localhost','austinpalmer','thereisnone1!','firesale');
       $quer = 'SELECT colleges.name,colleges.image,DATE_FORMAT(users.date_created,"%M %e, %Y") as date_created FROM users,colleges WHERE colleges.abbreviation=users.college AND users.email="' . $_SESSION['user_email'] . '"';
@@ -65,7 +65,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="../stylesheets/style.php">
+		<link rel="stylesheet" href="../css/style.php">
 		<title>firesale--The College Market</title>
 	</head>
 	<body>
@@ -89,7 +89,7 @@
 		</header>
 		
 		<?php
-		  require('../php/accountbar.php');
+		  require('../phpscripts/accountbar.php');
 		?>
 		<div id="bodywrap">
 		  <table id="acc">
