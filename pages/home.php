@@ -255,7 +255,7 @@
 	    $_SESSION['id'] = $row['ID'];
 	    $dbconn->close();
 	    if ($_GET['where'] == 'myaccount' || $_GET['where'] == 'postitem') {
-	      header('Location: ../markup/'.$_GET['where'].'.php',true,301);
+	      header('Location: ../pages/'.$_GET['where'].'.php',true,301);
 	      exit;
 	    } else {
 	      header("Location: ../pages/home.php",true,301);

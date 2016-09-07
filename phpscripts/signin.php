@@ -17,7 +17,7 @@
 	if (sha1($password) != $row['password']) {
 		echo 'Nope!';
 	} else {
-		header('Location: ../markup/home.html',true,301);
+		header('Location: ../pages/home.html',true,301);
 		exit;
 	}
 	
