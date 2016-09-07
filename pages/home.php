@@ -15,7 +15,7 @@
     } 
     
     else {
-    require('../php/getcolors.php');
+    require('../phpscripts/getcolors.php');
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +46,7 @@
 			</table>
 		</header>
 		<?php
-		  require('../php/accountbar.php');
+		  require('../phpscripts/accountbar.php');
 		?>
 		<div id="searchwrapper" class="wrapper">
 			<table id="search">
