@@ -26,7 +26,7 @@
         setcookie(session_name(),'',time() - 3600);
       }
       session_destroy();
-      header('Location: ../markup/tryout.php',true,301);
+      header('Location: ../pages/home.php',true,301);
       exit();
     } else {
     

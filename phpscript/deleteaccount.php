@@ -8,5 +8,5 @@ if (isset($_COOKIE[session_name()])) {
 }
 session_destroy();
 $dbconn->close();
-header('Location: ../markup/tryout.php',true,301);
+header('Location: ../pages/home.php',true,301);
 ?>
